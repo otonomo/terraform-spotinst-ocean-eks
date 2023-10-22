@@ -145,5 +145,8 @@ output "ocean_controller_id" {
   description = "The ID of the Ocean controller"
   value       = local.ocean_controller_id
 }
-
+output "cluster_name" {
+  description = "The ID of the Ocean controller"
+  value       = local.cluster_name
+}
 // endregion
